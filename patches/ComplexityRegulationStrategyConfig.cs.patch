@@ -1,0 +1,11 @@
+--- ComplexityRegulationStrategyConfig.cs	2023-01-29 10:25:39
++++ ComplexityRegulationStrategyConfig-patched.cs	2023-01-29 10:26:54
+@@ -10,7 +10,7 @@
+     /// <summary>
+     /// Regulation strategy name.
+     /// </summary>
+-    public required string StrategyName { get; init; }
++    public string? StrategyName { get; init; }
+ 
+     /// <summary>
+     /// The minimum number of generations we stay within simplification mode.

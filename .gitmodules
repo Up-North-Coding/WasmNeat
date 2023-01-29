@@ -1,0 +1,6 @@
+[submodule "sharpneat"]
+	path = sharpneat
+	url = https://github.com/colgreen/sharpneat
+[submodule "Redzen"]
+	path = Redzen
+	url = https://github.com/colgreen/Redzen
